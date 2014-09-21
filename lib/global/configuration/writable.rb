@@ -1,4 +1,4 @@
-require 'global/configuration/writable/version'
+require 'global'
 
 module Global::Configuration::Writable
   def method_missing(method, *args, &block)

@@ -1,5 +1,7 @@
 # Global::Configuration::Writable
 
+[![Build Status](https://travis-ci.org/knagano/global-configuration-writable.svg?branch=master)](https://travis-ci.org/knagano/global-configuration-writable)
+
 Make global's configuration writable
 
 global: https://rubygems.org/gems/global
