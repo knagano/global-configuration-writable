@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Keiichiro Nagano"]
   spec.email         = ["knagano@CPAN.org"]
   spec.summary       = %q{Make global's configuration writable}
-  spec.description   = %q{Make global's configuration writable}
+  spec.description   = %q{Make global's configuration writable.}
   spec.homepage      = "https://github.com/knagano/global-configuration-writable"
   spec.license       = "MIT"
 
@@ -18,9 +18,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'global', '~> 0.1.1'
+  spec.add_runtime_dependency 'global', '~> 0.1'
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency 'rspec', '>= 2.13.0'
+  spec.add_development_dependency 'rspec', '~> 2.13'
 end
